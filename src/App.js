@@ -8,6 +8,7 @@ import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
 
 import './App.css'
+import CarPage from './components/pages/CarPage'
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
+                    <Route path="/car" component = {CarPage}/>
                 </Switch>
                 <Footer />
             </div>
